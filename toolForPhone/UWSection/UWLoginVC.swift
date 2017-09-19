@@ -26,6 +26,8 @@ class UWLoginVC: UWBaseViewController {
         let testView = UIView.view(rect: CGRect(x: 50, y: 300, width: ScreenWidth - 100, height: 50), color: .red)
         testView.cornerRadius = 5
         self.view.addSubview(testView)
+        
+        print("height:" + "\(ScreenHeight)");
     }
     
     @objc func testAction(sender:UIButton){

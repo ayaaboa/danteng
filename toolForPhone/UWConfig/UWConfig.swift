@@ -11,7 +11,7 @@ import UIKit
 let ScreenWidth = UIScreen.main.bounds.width
 let ScreenHeight = UIScreen.main.bounds.height
 
-//class UWConfig: NSObject {
-//
-//}
-
+let iPhoneSE = ScreenHeight.isEqual(to: 568)
+let iPhone6 = ScreenHeight.isEqual(to: 667)
+let iPhoneP = ScreenHeight.isEqual(to: 736)
+let iPhoneX = ScreenHeight.isEqual(to: 812)
