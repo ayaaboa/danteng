@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap3DMap-NO-IDFA (5.2.1):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapFoundation-NO-IDFA (1.4.0)
+  - AMapLocation-NO-IDFA (2.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapNavi-NO-IDFA (5.1.0):
+    - AMap3DMap-NO-IDFA (>= 5.2.1)
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (5.2.1):
+    - AMapFoundation-NO-IDFA (~> 1.2)
+  - CYLTabBarController (1.13.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - RongCloudIM/IMKit (2.8.14):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.14)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UMengUShare/Core (6.4.5):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.5)
+  - UMengUShare/Social/ReducedQQ (6.4.5):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.5):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.5):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.5):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI (6.4.5):
+    - UMengUShare/Core
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMapLocation-NO-IDFA
+  - AMapNavi-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - CYLTabBarController
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
+  - SDWebImage
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap-NO-IDFA: ce3c57a3e0bd65ae09040ce55055b2020ab47783
+  AMapFoundation-NO-IDFA: d1ba541a56737c2048115a745b1dfcbe9901c248
+  AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
+  AMapNavi-NO-IDFA: 4e355d9e790fb2268361b6380e3d06ad2a89cae3
+  AMapSearch-NO-IDFA: ec04c2c15ef278803234d959328acda14c2c3c5d
+  CYLTabBarController: 97f6b486f9e6c613d69e9c111cc9c2c5db7000ce
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RongCloudIM: 04334f9285db8bc5e2f69bda0e3ce5431a6bec72
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UMengUShare: a5711c54e640b04e3048e931d2b88d50f9cfa55c
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 3e5ba098b6f7408c3637788da6ee5ca8612265ae
+
+COCOAPODS: 1.2.1
